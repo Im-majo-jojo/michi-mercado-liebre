@@ -328,17 +328,15 @@ footer{
     .precios{
         font-size: 18px;
         width: 50%;
-      
     }
     .descuestos{
         font-size: 16px;
         color: #39b54a;
         padding-top: 1.5px;
         width: 50%;
-
     }
     .article-content{
-justify-content: space-between;
+        justify-content: space-between;
     }
  } 
 
