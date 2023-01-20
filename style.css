@@ -1,0 +1,339 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*nav*/
+.barra-de-navegacion{
+    background-color: #EAC926;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.logo{
+    padding: 5px;
+    width: 50%;
+}
+.search-bar{
+    display: flex;
+    padding:5px;
+    height: 10%;
+    width: 50%;
+}
+.search-bar i{
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid #0000009c;
+    border-radius: 3px;
+    width: 10%;
+} 
+.search-bar input{
+    width: 90%;
+}
+p{
+   font-size: 12px; 
+}
+.titulares{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+.texto-inicial{
+    font-size: 16px;
+}
+.sugerencia-inicial{
+    text-align: center;
+    margin: 15px 0 0;
+}
+.texto-inicial::before{
+    content: "\f4c0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900; 
+    font-size: 15px;
+}
+.menu-links{
+    padding: 20px 20px;
+    display: none;
+}
+.dropdown-menu{
+    padding: 0 15px;
+    margin-top: -15px;
+}
+#primer-icono-del-nav::after{
+    content: "\f2c2";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+}
+#segundo-icono-del-nav::after{
+    content: "\f2f6";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+}
+#tercer-icono-del-nav::after{
+    content: "\f291";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+}
+.burger-menu{
+    background-color:  #1259c3;
+    border-radius: 5px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 20px 0;
+}
+.burger-menu i{
+    color: white;
+    font-size: 25px;
+}
+.burger-posicion {
+    display: flex;
+    justify-content: center;
+}
+/*nav termina*/
+/*main*/
+main{
+    background-color:#ebebeb;
+    width: 100%;
+}
+.home-banner img{
+    width: 100%;
+}
+.titulares-main{
+    font-size: 24px;
+    color: #666;
+    padding: 0 15px;
+}
+.precios{
+    font-size: 18px;
+    width: 30%;
+}
+.descuestos{
+    font-size: 16px;
+    color: #39b54a;
+    padding-top: 1.5px;
+    width: 70%;
+
+}
+.descripciones{
+    font-size: 16px;
+}
+.cuerpo-de-texto{
+    font-size: 12px;
+}
+.ultima-visita,
+.ofertas{
+    margin: auto;
+    width: 90%;
+}
+.inner-article-box{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+.inner-article-box img{
+    width: 100%;
+}
+.article-content{
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    padding-top: 10px;
+    width: 100%;
+}
+.article-content i{
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    margin-top: -25px;
+    color: #39b54a;
+}
+#descripcion{
+    display: none;
+}
+/* footer */
+footer{
+    background-color:#ebebeb;
+    padding: 5px;  
+   
+}
+.footer-nav{
+    display: flex;
+    background-color:  white;
+    border-radius: 5px;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;  
+    color: #666;
+}
+.metodo-de-pago,.metodo-de-envio,.protocolo-de-seguridad{
+    margin: 10px 0;
+    padding: 20px;
+}
+.titulares-footer{
+    font-size: 18px;
+}
+.footer-nav i{
+    color:  #1259c3;
+    font-size: 35px;
+    margin: 7px 0 7px;
+}
+.copyright{
+    text-align: start;
+    margin: 10px 7px 10px;
+}
+/*--------------*/
+    /*tablets*/
+ @media (min-width: 361px){
+    #descripcion{
+        display: initial;
+    }
+    .inner-article-box{
+        box-shadow: 0px 0px 12px 3px rgba(36,36,36,0.41);
+    }
+    .burger-menu{
+        display:none;
+    }
+    .barra-de-navegacion{
+        background-color: #EAC926;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo{
+        padding: 5px;
+        width: 33%;
+    }
+    .search-bar{
+        display: flex;
+        padding:5px;
+        height: 10%;
+        width: 30%;
+    }
+    .search-bar i{
+        font-size: 12px;
+        padding: 3px;
+        width: 20px;
+        background-color: white;
+        border: 1px solid #0000009c;
+        border-radius: 3px;
+        margin-left: 3px;
+    } 
+    .sugerencia-inicial{
+        text-align: center;
+        padding: 5px;
+        width: 30%;
+    }
+    .sugerencia-inicial p{
+        font-size: 12px;
+    }
+    .menu-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu-nav{
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+    .dropdown-menu{
+        padding: 5px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+} 
+    /*laptop*/
+ @media (min-width: 769px){
+    #descripcion{
+        display: initial;
+    }
+    .inner-article-box{
+        box-shadow: 0px 0px 12px 3px rgba(36,36,36,0.41);
+    }
+    .burger-menu{
+        display:none;
+    }
+    .barra-de-navegacion{
+        background-color: #EAC926;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo{
+        padding: 5px;
+        width: 33%;
+    }
+    .search-bar{
+        display: flex;
+        padding:5px;
+        height: 10%;
+        width: 30%;
+    }
+    .search-bar i{
+        font-size: 12px;
+        padding: 3px;
+        width: 20px;
+        background-color: white;
+        border: 1px solid #0000009c;
+        border-radius: 3px;
+        margin-left: 3px;
+    } 
+    .sugerencia-inicial{
+        text-align: center;
+        padding: 5px;
+        width: 30%;
+    }
+    .sugerencia-inicial p{
+        font-size: 12px;
+    }
+    .menu-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu-nav{
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+    }
+    .dropdown-menu{
+        padding: 5px;
+        margin-right: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+ } 
+
