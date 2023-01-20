@@ -205,10 +205,21 @@ footer{
     /*tablets*/
  @media (min-width: 361px){
     #descripcion{
-        display: initial;
+        display: flex;
+    }
+    .article-content{
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid #ebebeb;
+        padding-top: 10px;
+        width: 100%;
     }
     .inner-article-box{
         box-shadow: 0px 0px 12px 3px rgba(36,36,36,0.41);
+    }
+    .inner-prices{
+        width: 100%;
+        display: flex;
     }
     .burger-menu{
         display:none;
@@ -272,8 +283,8 @@ footer{
     /*laptop*/
  @media (min-width: 769px){
     #descripcion{
-        display: wrap;
-        
+        visibility: visible;
+
     }
     .inner-article-box{
         box-shadow: 0px 0px 12px 3px rgba(36,36,36,0.41);
