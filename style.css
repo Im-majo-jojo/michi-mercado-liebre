@@ -28,7 +28,6 @@
     font-size: 15px;
     background-color: white;
     border-radius: 3px;
-    width: 10%;
 } 
 .search-bar input{
     width: 90%;
@@ -48,7 +47,7 @@ li{
     list-style: none;
 }
 .texto-inicial{
-    font-size: 16px;
+    margin: 0 18px;
 }
 .sugerencia-inicial{
     text-align: center;
@@ -98,6 +97,7 @@ li{
 .burger-posicion {
     display: flex;
     justify-content: center;
+    margin: -10px 0 -10px;
 }
 /*nav termina*/
 /*main*/
