@@ -61,12 +61,7 @@ li{
     font-size: 15px;
 }
 .menu-links{
-    padding: 20px 20px;
     display: none;
-}
-.dropdown-menu{
-    padding: 0 15px;
-    margin-top: -15px;
 }
 #primer-icono-del-nav::after{
     content: "\f2c2";
@@ -262,22 +257,11 @@ footer{
     .burger-menu{
         display:none;
     }
-    .barra-de-navegacion{
-        background-color: #EAC926;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 10px;
-    }
     .logo{
         padding: 5px;
         width: 33%;
     }
     .search-bar{
-        display: flex;
-        padding:5px;
-        height: 10%;
         width: 30%;
     }
     .search-bar i{
@@ -299,23 +283,21 @@ footer{
     }
     .menu-links{
         display: flex;
-        flex-direction: row;
+        align-items: flex-end;
         justify-content: space-between;
         width: 100%;
     }
     .menu-nav{
-        padding: 5px;
         display: flex;
-        flex-direction: row;
-        width: 50%;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        width: 45%;
     }
     .dropdown-menu{
-        padding: 5px;
-        margin-right: 5px;
         display: flex;
-        flex-direction: row;
+        align-items: flex-end;
         justify-content: space-evenly;
-        width: 50%;
+        width: 45%;
     }
 } 
     /*laptop*/
